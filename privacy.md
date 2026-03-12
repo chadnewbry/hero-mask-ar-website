@@ -11,6 +11,16 @@ title: Privacy Policy
 
 ## Information We Collect
 
+### Face Data (TrueDepth Camera & ARKit)
+
+The App uses Apple's TrueDepth camera and ARKit framework to provide real-time AR face tracking. When you use the App, the TrueDepth camera captures face geometry data (a 3D mesh of your face) and facial expression data (blendshape coefficients) to position and animate superhero masks on your face.
+
+- **Purpose:** Face data is used solely to align, fit, and animate AR masks on your face in real time. This includes detecting face position, orientation, shape, and expressions so that masks move naturally with your face.
+- **On-device processing only:** All face data is processed entirely on your device in real time. Face data is **never** transmitted, uploaded, stored, or shared with us, any third party, or any external server.
+- **No storage or retention:** Face data exists only in device memory while the AR camera is active. It is immediately discarded when you close the camera or exit the App. We do not save, cache, or retain face data in any form.
+- **No sharing:** Face data is **never** shared with third parties, advertisers, analytics providers, or any other entity.
+- **Not used for identification:** Face data is used exclusively for the AR mask experience. It is not used for facial recognition, user identification, authentication, or any purpose other than rendering AR masks.
+
 ### Photos and Videos
 - **Captured photos** — photos you take using the AR camera within the App
 - **Recorded videos** — videos you record using the AR camera within the App
@@ -26,7 +36,7 @@ These are saved directly to your device's photo library. We do not upload, trans
 
 ## How We Use Your Information
 
-The App processes camera data entirely on your device to provide AR face tracking and mask overlay features. No data is sent to external servers.
+The App processes camera and face data entirely on your device to provide AR face tracking and mask overlay features. No face data, camera data, or personal data is sent to external servers. Face data from the TrueDepth camera is used only to render AR masks in real time and is never stored or retained.
 
 ## Device Permissions
 
